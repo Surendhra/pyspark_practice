@@ -16,6 +16,7 @@ def main():
   logging.error("error in spark code")
 
  finally: sc.stop()
+ #
 
 if __name__ == '__main__':
     main()
